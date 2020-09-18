@@ -1,14 +1,14 @@
+////
+////  main.c
+////  Examples-Graphics
+////
+////  Created by Mahalia Evans on 9/17/20.
+////
 //
-//  main.c
-//  Examples-Graphics
+//#include <stdio.h>
 //
-//  Created by Mahalia Evans on 9/17/20.
-//
-
-#include <stdio.h>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
-}
+//int main(int argc, const char * argv[]) {
+//    // insert code here...
+//    printf("Hello, World!\n");
+//    return 0;
+//}

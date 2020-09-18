@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B8673E0A25144F11007C70E8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B8673E0925144F11007C70E8 /* main.c */; };
+		B8673E1525144F29007C70E8 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = B8673E1225144F29007C70E8 /* makefile */; };
+		B8673E1625144F29007C70E8 /* ex6.c in Sources */ = {isa = PBXBuildFile; fileRef = B8673E1325144F29007C70E8 /* ex6.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,18 @@
 /* Begin PBXFileReference section */
 		B8673E0625144F11007C70E8 /* Examples-Graphics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Examples-Graphics"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8673E0925144F11007C70E8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B8673E1225144F29007C70E8 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		B8673E1325144F29007C70E8 /* ex6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ex6.c; sourceTree = "<group>"; };
+		B8673E1425144F29007C70E8 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		B8673E18251461D9007C70E8 /* ex1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex1.c; sourceTree = "<group>"; };
+		B8673E19251461D9007C70E8 /* ex5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex5.c; sourceTree = "<group>"; };
+		B8673E1A251461D9007C70E8 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		B8673E1B251461D9007C70E8 /* ex2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex2.c; sourceTree = "<group>"; };
+		B8673E1C251461D9007C70E8 /* ex1 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ex1; sourceTree = "<group>"; };
+		B8673E1D251461D9007C70E8 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		B8673E1E251461D9007C70E8 /* ex3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex3.c; sourceTree = "<group>"; };
+		B8673E1F251461D9007C70E8 /* ex5 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ex5; sourceTree = "<group>"; };
+		B8673E20251461D9007C70E8 /* ex4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex4.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +71,39 @@
 		B8673E0825144F11007C70E8 /* Examples-Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				B8673E21251461D9007C70E8 /* ex1-5 */,
+				B8673E1125144F29007C70E8 /* ex6 */,
 				B8673E0925144F11007C70E8 /* main.c */,
 			);
 			path = "Examples-Graphics";
 			sourceTree = "<group>";
+		};
+		B8673E1125144F29007C70E8 /* ex6 */ = {
+			isa = PBXGroup;
+			children = (
+				B8673E1225144F29007C70E8 /* makefile */,
+				B8673E1325144F29007C70E8 /* ex6.c */,
+				B8673E1425144F29007C70E8 /* README */,
+			);
+			path = ex6;
+			sourceTree = "<group>";
+		};
+		B8673E21251461D9007C70E8 /* ex1-5 */ = {
+			isa = PBXGroup;
+			children = (
+				B8673E18251461D9007C70E8 /* ex1.c */,
+				B8673E19251461D9007C70E8 /* ex5.c */,
+				B8673E1A251461D9007C70E8 /* Makefile */,
+				B8673E1B251461D9007C70E8 /* ex2.c */,
+				B8673E1C251461D9007C70E8 /* ex1 */,
+				B8673E1D251461D9007C70E8 /* README */,
+				B8673E1E251461D9007C70E8 /* ex3.c */,
+				B8673E1F251461D9007C70E8 /* ex5 */,
+				B8673E20251461D9007C70E8 /* ex4.c */,
+			);
+			name = "ex1-5";
+			path = "/Users/mahaliaevans/Documents/Graphics/Examples-Graphics/Examples-Graphics/ex1-5";
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -118,6 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8673E1625144F29007C70E8 /* ex6.c in Sources */,
+				B8673E1525144F29007C70E8 /* makefile in Sources */,
 				B8673E0A25144F11007C70E8 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

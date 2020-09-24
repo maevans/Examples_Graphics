@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B8673E0A25144F11007C70E8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B8673E0925144F11007C70E8 /* main.c */; };
 		B8673E1525144F29007C70E8 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = B8673E1225144F29007C70E8 /* makefile */; };
 		B8673E1625144F29007C70E8 /* ex6.c in Sources */ = {isa = PBXBuildFile; fileRef = B8673E1325144F29007C70E8 /* ex6.c */; };
+		B8673E33251464E8007C70E8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8673E32251464E8007C70E8 /* OpenGL.framework */; };
+		B8673E35251464EF007C70E8 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8673E34251464EF007C70E8 /* GLUT.framework */; };
+		B8BF1EF5251BF0E40065C724 /* exampleCBasics.c in Sources */ = {isa = PBXBuildFile; fileRef = B8BF1EF4251BF0E40065C724 /* exampleCBasics.c */; };
+		B8BF1F03251BF1FD0065C724 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = B8BF1EF8251BF1FD0065C724 /* makefile */; };
+		B8BF1F04251BF1FD0065C724 /* ex8.c in Sources */ = {isa = PBXBuildFile; fileRef = B8BF1EF9251BF1FD0065C724 /* ex8.c */; };
+		B8BF1F05251BF1FD0065C724 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = B8BF1EFC251BF1FD0065C724 /* makefile */; };
+		B8BF1F06251BF1FD0065C724 /* ex9.c in Sources */ = {isa = PBXBuildFile; fileRef = B8BF1EFE251BF1FD0065C724 /* ex9.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +32,6 @@
 
 /* Begin PBXFileReference section */
 		B8673E0625144F11007C70E8 /* Examples-Graphics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Examples-Graphics"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8673E0925144F11007C70E8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		B8673E1225144F29007C70E8 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
 		B8673E1325144F29007C70E8 /* ex6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ex6.c; sourceTree = "<group>"; };
 		B8673E1425144F29007C70E8 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
@@ -39,6 +44,24 @@
 		B8673E1E251461D9007C70E8 /* ex3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex3.c; sourceTree = "<group>"; };
 		B8673E1F251461D9007C70E8 /* ex5 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ex5; sourceTree = "<group>"; };
 		B8673E20251461D9007C70E8 /* ex4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex4.c; sourceTree = "<group>"; };
+		B8673E32251464E8007C70E8 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		B8673E34251464EF007C70E8 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		B8BF1EF4251BF0E40065C724 /* exampleCBasics.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = exampleCBasics.c; path = "Examples-Graphics/exampleCBasics.c"; sourceTree = "<group>"; };
+		B8BF1EF8251BF1FD0065C724 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		B8BF1EF9251BF1FD0065C724 /* ex8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ex8.c; sourceTree = "<group>"; };
+		B8BF1EFA251BF1FD0065C724 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		B8BF1EFC251BF1FD0065C724 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		B8BF1EFD251BF1FD0065C724 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		B8BF1EFE251BF1FD0065C724 /* ex9.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ex9.c; sourceTree = "<group>"; };
+		B8BF1F0B251BF2020065C724 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		B8BF1F0C251BF2020065C724 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		B8BF1F0D251BF2020065C724 /* ex7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex7.c; sourceTree = "<group>"; };
+		B8BF1F10251BF20E0065C724 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		B8BF1F11251BF20E0065C724 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		B8BF1F12251BF20E0065C724 /* ex8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex8.c; sourceTree = "<group>"; };
+		B8BF1F14251BF2130065C724 /* ex9.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex9.c; sourceTree = "<group>"; };
+		B8BF1F15251BF2130065C724 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		B8BF1F16251BF2130065C724 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8673E35251464EF007C70E8 /* GLUT.framework in Frameworks */,
+				B8673E33251464E8007C70E8 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +80,10 @@
 		B8673DFD25144F11007C70E8 = {
 			isa = PBXGroup;
 			children = (
+				B8BF1EF4251BF0E40065C724 /* exampleCBasics.c */,
 				B8673E0825144F11007C70E8 /* Examples-Graphics */,
 				B8673E0725144F11007C70E8 /* Products */,
+				B8673E31251464E8007C70E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,7 +100,9 @@
 			children = (
 				B8673E21251461D9007C70E8 /* ex1-5 */,
 				B8673E1125144F29007C70E8 /* ex6 */,
-				B8673E0925144F11007C70E8 /* main.c */,
+				B8BF1F0A251BF2020065C724 /* ex7 */,
+				B8BF1F0F251BF20E0065C724 /* ex8 */,
+				B8BF1F13251BF2130065C724 /* ex9 */,
 			);
 			path = "Examples-Graphics";
 			sourceTree = "<group>";
@@ -81,6 +110,8 @@
 		B8673E1125144F29007C70E8 /* ex6 */ = {
 			isa = PBXGroup;
 			children = (
+				B8BF1EF7251BF1FD0065C724 /* ex8 */,
+				B8BF1EFB251BF1FD0065C724 /* ex9 */,
 				B8673E1225144F29007C70E8 /* makefile */,
 				B8673E1325144F29007C70E8 /* ex6.c */,
 				B8673E1425144F29007C70E8 /* README */,
@@ -104,6 +135,67 @@
 			name = "ex1-5";
 			path = "/Users/mahaliaevans/Documents/Graphics/Examples-Graphics/Examples-Graphics/ex1-5";
 			sourceTree = "<absolute>";
+		};
+		B8673E31251464E8007C70E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8673E34251464EF007C70E8 /* GLUT.framework */,
+				B8673E32251464E8007C70E8 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8BF1EF7251BF1FD0065C724 /* ex8 */ = {
+			isa = PBXGroup;
+			children = (
+				B8BF1EF8251BF1FD0065C724 /* makefile */,
+				B8BF1EF9251BF1FD0065C724 /* ex8.c */,
+				B8BF1EFA251BF1FD0065C724 /* README */,
+			);
+			name = ex8;
+			path = ../../../../../Downloads/ex8;
+			sourceTree = "<group>";
+		};
+		B8BF1EFB251BF1FD0065C724 /* ex9 */ = {
+			isa = PBXGroup;
+			children = (
+				B8BF1EFC251BF1FD0065C724 /* makefile */,
+				B8BF1EFD251BF1FD0065C724 /* README */,
+				B8BF1EFE251BF1FD0065C724 /* ex9.c */,
+			);
+			name = ex9;
+			path = ../../../../../Downloads/ex9;
+			sourceTree = "<group>";
+		};
+		B8BF1F0A251BF2020065C724 /* ex7 */ = {
+			isa = PBXGroup;
+			children = (
+				B8BF1F0B251BF2020065C724 /* makefile */,
+				B8BF1F0C251BF2020065C724 /* README */,
+				B8BF1F0D251BF2020065C724 /* ex7.c */,
+			);
+			path = ex7;
+			sourceTree = "<group>";
+		};
+		B8BF1F0F251BF20E0065C724 /* ex8 */ = {
+			isa = PBXGroup;
+			children = (
+				B8BF1F10251BF20E0065C724 /* makefile */,
+				B8BF1F12251BF20E0065C724 /* ex8.c */,
+				B8BF1F11251BF20E0065C724 /* README */,
+			);
+			path = ex8;
+			sourceTree = "<group>";
+		};
+		B8BF1F13251BF2130065C724 /* ex9 */ = {
+			isa = PBXGroup;
+			children = (
+				B8BF1F15251BF2130065C724 /* makefile */,
+				B8BF1F16251BF2130065C724 /* README */,
+				B8BF1F14251BF2130065C724 /* ex9.c */,
+			);
+			path = ex9;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -161,9 +253,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8BF1EF5251BF0E40065C724 /* exampleCBasics.c in Sources */,
 				B8673E1625144F29007C70E8 /* ex6.c in Sources */,
+				B8BF1F05251BF1FD0065C724 /* makefile in Sources */,
+				B8BF1F03251BF1FD0065C724 /* makefile in Sources */,
+				B8BF1F04251BF1FD0065C724 /* ex8.c in Sources */,
+				B8BF1F06251BF1FD0065C724 /* ex9.c in Sources */,
 				B8673E1525144F29007C70E8 /* makefile in Sources */,
-				B8673E0A25144F11007C70E8 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

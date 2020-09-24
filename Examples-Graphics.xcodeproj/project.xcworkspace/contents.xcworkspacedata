@@ -5,6 +5,12 @@
       location = "group:/Users/mahaliaevans/Documents/Graphics/Examples-Graphics/Examples-Graphics/ex1-5"
       name = "ex1-5">
       <FileRef
+         location = "group:../Ex-LoAt.h">
+      </FileRef>
+      <FileRef
+         location = "group:../Ex-LoAt.c">
+      </FileRef>
+      <FileRef
          location = "group:ex1.c">
       </FileRef>
       <FileRef

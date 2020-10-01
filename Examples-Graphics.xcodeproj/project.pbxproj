@@ -31,6 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B8030D632525BC2200A7346C /* teapot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = teapot.h; sourceTree = "<group>"; };
 		B8673E0625144F11007C70E8 /* Examples-Graphics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Examples-Graphics"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8673E1225144F29007C70E8 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
 		B8673E1325144F29007C70E8 /* ex6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ex6.c; sourceTree = "<group>"; };
@@ -98,6 +99,7 @@
 		B8673E0825144F11007C70E8 /* Examples-Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				B8030D632525BC2200A7346C /* teapot.h */,
 				B8673E21251461D9007C70E8 /* ex1-5 */,
 				B8673E1125144F29007C70E8 /* ex6 */,
 				B8BF1F0A251BF2020065C724 /* ex7 */,

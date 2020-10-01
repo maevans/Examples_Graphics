@@ -1,43 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <Group
-      location = "group:/Users/mahaliaevans/Documents/Graphics/Examples-Graphics/Examples-Graphics/ex1-5"
-      name = "ex1-5">
-      <FileRef
-         location = "group:../Ex-LoAt.h">
-      </FileRef>
-      <FileRef
-         location = "group:../Ex-LoAt.c">
-      </FileRef>
-      <FileRef
-         location = "group:ex1.c">
-      </FileRef>
-      <FileRef
-         location = "group:ex5.c">
-      </FileRef>
-      <FileRef
-         location = "group:Makefile">
-      </FileRef>
-      <FileRef
-         location = "group:ex2.c">
-      </FileRef>
-      <FileRef
-         location = "group:ex1">
-      </FileRef>
-      <FileRef
-         location = "group:README">
-      </FileRef>
-      <FileRef
-         location = "group:ex3.c">
-      </FileRef>
-      <FileRef
-         location = "group:ex5">
-      </FileRef>
-      <FileRef
-         location = "group:ex4.c">
-      </FileRef>
-   </Group>
    <FileRef
       location = "self:">
    </FileRef>

@@ -10,7 +10,7 @@
  *  arrows     Change view angle
  *  PgDn/PgUp  Zoom in and out
  *  0          Reset view angle
- *  ESC        Exit  
+ *  ESC        Exit
  */
 #include <stdio.h>
 #include <stdlib.h>

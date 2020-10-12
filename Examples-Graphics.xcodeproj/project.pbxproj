@@ -32,6 +32,24 @@
 
 /* Begin PBXFileReference section */
 		B8030D632525BC2200A7346C /* teapot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = teapot.h; sourceTree = "<group>"; };
+		B8030D9C252F76F600A7346C /* img2.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = img2.bmp; sourceTree = "<group>"; };
+		B8030D9D252F76F600A7346C /* errcheck.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = errcheck.c; sourceTree = "<group>"; };
+		B8030D9E252F76F600A7346C /* crate.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = crate.bmp; sourceTree = "<group>"; };
+		B8030D9F252F76F600A7346C /* object.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = object.c; sourceTree = "<group>"; };
+		B8030DA0252F76F600A7346C /* ex15.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex15.c; sourceTree = "<group>"; };
+		B8030DA1252F76F600A7346C /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		B8030DA2252F76F600A7346C /* img5.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = img5.bmp; sourceTree = "<group>"; };
+		B8030DA3252F76F600A7346C /* ex15 (1).xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "ex15 (1).xcodeproj"; path = "../../../../../Downloads/ex15 (1)/ex15 (1).xcodeproj"; sourceTree = "<group>"; };
+		B8030DA7252F76F600A7346C /* print.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = print.c; sourceTree = "<group>"; };
+		B8030DA8252F76F600A7346C /* loadtexbmp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = loadtexbmp.c; sourceTree = "<group>"; };
+		B8030DA9252F76F600A7346C /* img1.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = img1.bmp; sourceTree = "<group>"; };
+		B8030DAA252F76F600A7346C /* project.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = project.c; sourceTree = "<group>"; };
+		B8030DAB252F76F600A7346C /* img4.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = img4.bmp; sourceTree = "<group>"; };
+		B8030DAC252F76F600A7346C /* img6.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = img6.bmp; sourceTree = "<group>"; };
+		B8030DAD252F76F600A7346C /* fatal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fatal.c; sourceTree = "<group>"; };
+		B8030DAE252F76F600A7346C /* img3.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = img3.bmp; sourceTree = "<group>"; };
+		B8030DAF252F76F600A7346C /* CSCIx229.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSCIx229.h; sourceTree = "<group>"; };
+		B8030DB0252F76F600A7346C /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		B8673E0625144F11007C70E8 /* Examples-Graphics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Examples-Graphics"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8673E1225144F29007C70E8 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
 		B8673E1325144F29007C70E8 /* ex6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ex6.c; sourceTree = "<group>"; };
@@ -78,6 +96,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B8030D9B252F76F600A7346C /* ex15 */ = {
+			isa = PBXGroup;
+			children = (
+				B8030D9C252F76F600A7346C /* img2.bmp */,
+				B8030DAE252F76F600A7346C /* img3.bmp */,
+				B8030DA9252F76F600A7346C /* img1.bmp */,
+				B8030DAF252F76F600A7346C /* CSCIx229.h */,
+				B8030DAB252F76F600A7346C /* img4.bmp */,
+				B8030D9F252F76F600A7346C /* object.c */,
+				B8030D9D252F76F600A7346C /* errcheck.c */,
+				B8030DA7252F76F600A7346C /* print.c */,
+				B8030DA2252F76F600A7346C /* img5.bmp */,
+				B8030DA8252F76F600A7346C /* loadtexbmp.c */,
+				B8030DAC252F76F600A7346C /* img6.bmp */,
+				B8030DAD252F76F600A7346C /* fatal.c */,
+				B8030DA1252F76F600A7346C /* makefile */,
+				B8030DAA252F76F600A7346C /* project.c */,
+				B8030DA0252F76F600A7346C /* ex15.c */,
+				B8030DB0252F76F600A7346C /* README */,
+				B8030D9E252F76F600A7346C /* crate.bmp */,
+				B8030DA3252F76F600A7346C /* ex15 (1).xcodeproj */,
+			);
+			path = ex15;
+			sourceTree = "<group>";
+		};
+		B8030DA4252F76F600A7346C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		B8673DFD25144F11007C70E8 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +154,7 @@
 				B8673E1125144F29007C70E8 /* ex6 */,
 				B8BF1F0A251BF2020065C724 /* ex7 */,
 				B8BF1F0F251BF20E0065C724 /* ex8 */,
+				B8030D9B252F76F600A7346C /* ex15 */,
 				B8BF1F13251BF2130065C724 /* ex9 */,
 			);
 			path = "Examples-Graphics";
@@ -243,6 +294,12 @@
 			mainGroup = B8673DFD25144F11007C70E8;
 			productRefGroup = B8673E0725144F11007C70E8 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B8030DA4252F76F600A7346C /* Products */;
+					ProjectRef = B8030DA3252F76F600A7346C /* ex15 (1).xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B8673E0525144F11007C70E8 /* Examples-Graphics */,
